@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Values version="2.0">
+  <value name="node_type">webServiceDescriptor</value>
+  <value name="node_subtype">unknown</value>
+  <value name="node_nsName">project.testsoap.soap.connectors:TestNC</value>
+  <value name="node_pkg">TestSoapProject</value>
+  <value name="is_public">false</value>
+  <Boolean name="inbound">false</Boolean>
+  <Boolean name="WSICompliant">false</Boolean>
+  <value name="SOAPProtocol">SOAP 1.2 Protocol</value>
+  <value name="targetNamespace">http://www.dataaccess.com/webservicesserver/</value>
+  <Boolean name="attachmentEnabled">false</Boolean>
+  <number name="mtomThreshold" type="Integer">0</number>
+  <array name="externalWSDLSources" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="contextURI">http://localhost:5555/</value>
+      <value name="locationURI">project.testsoap.soap.connectors.TestNC?wsdl=wsdl0</value>
+      <null name="source"/>
+      <number name="type" type="Integer">1</number>
+    </record>
+  </array>
+  <value name="externalWSDLURL">https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL</value>
+  <value name="WSDLURL">http://pie-origin:5555/ws/project.testsoap.soap.connectors:TestNC?WSDL</value>
+  <value name="definitionName">NumberConversion</value>
+  <value name="version">V_12_1</value>
+  <value name="schemaDomain">21ad12477a6449ec932b93ebbad31efc</value>
+  <Boolean name="rawArray">true</Boolean>
+  <array name="handlerList" type="record" depth="1">
+  </array>
+  <array name="binderList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">NumberConversionSoapBinding</value>
+      <value name="portAddress">https://www.dataaccess.com/webservicesserver/NumberConversion.wso</value>
+      <value name="bindingName">NumberConversionSoapBinding</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">NumberConversionSoap</value>
+      <value name="portTypeName">NumberConversionSoapType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">https</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="">NumberToWords</value>
+        <value name="">NumberToDollars</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.1 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="binderName">NumberConversionSoapBinding12</value>
+      <value name="portAddress">https://www.dataaccess.com/webservicesserver/NumberConversion.wso</value>
+      <value name="bindingName">NumberConversionSoapBinding12</value>
+      <value name="bindingStyle">document</value>
+      <value name="bindingUse">literal</value>
+      <value name="bindingType">SOAP</value>
+      <value name="portName">NumberConversionSoap12</value>
+      <value name="portTypeName">NumberConversionSoapType</value>
+      <value name="bindingTransport">http://schemas.xmlsoap.org/soap/http</value>
+      <value name="transportType">https</value>
+      <record name="operationMap" javaclass="com.wm.util.Values">
+        <value name="">NumberToWords</value>
+        <value name="">NumberToDollars</value>
+      </record>
+      <value name="SOAPProtocol">SOAP 1.2 Protocol</value>
+      <value name="SOAPDirective">ws</value>
+      <Boolean name="useCSQ">false</Boolean>
+    </record>
+  </array>
+  <array name="operationList" type="record" depth="1">
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">NumberToWords</value>
+      <value name="serviceName">project.testsoap.soap.connectors.TestNC_.connectors:NumberConversionSoapType_NumberToWords</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://www.dataaccess.com/webservicesserver/:NumberConversionSoapType_NumberToWords_Input</value>
+          <value name="docType">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToWords_Input</value>
+          <value name="nsOwner">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToWords_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://www.dataaccess.com/webservicesserver/:NumberConversionSoapType_NumberToWords_Output</value>
+          <value name="docType">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToWords_Output</value>
+          <value name="nsOwner">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToWords_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+    <record javaclass="com.wm.util.Values">
+      <value name="operationName">NumberToDollars</value>
+      <value name="serviceName">project.testsoap.soap.connectors.TestNC_.connectors:NumberConversionSoapType_NumberToDollars</value>
+      <value name="originalMEPType">MEP_URI_IN_OUT</value>
+      <record name="requestElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://www.dataaccess.com/webservicesserver/:NumberConversionSoapType_NumberToDollars_Input</value>
+          <value name="docType">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToDollars_Input</value>
+          <value name="nsOwner">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToDollars_Input</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+      <record name="responseElement" javaclass="com.wm.util.Values">
+        <array name="headers" type="record" depth="1">
+        </array>
+        <record name="body" javaclass="com.wm.util.Values">
+          <value name="name">http://www.dataaccess.com/webservicesserver/:NumberConversionSoapType_NumberToDollars_Output</value>
+          <value name="docType">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToDollars_Output</value>
+          <value name="nsOwner">project.testsoap.soap.connectors.TestNC_.docTypes:NumberConversionSoapType_NumberToDollars_Output</value>
+          <number name="nsOwnerType" type="Integer">3</number>
+          <Boolean name="addedByClient">false</Boolean>
+          <null name="originalDocName"/>
+        </record>
+        <array name="faults" type="record" depth="1">
+        </array>
+      </record>
+    </record>
+  </array>
+  <record name="namespaces" javaclass="com.wm.util.Values">
+    <value name="">http://schemas.xmlsoap.org/wsdl/</value>
+    <value name="tns">http://www.dataaccess.com/webservicesserver/</value>
+    <value name="soap12">http://schemas.xmlsoap.org/wsdl/soap12/</value>
+    <value name="xs">http://www.w3.org/2001/XMLSchema</value>
+    <value name="soap">http://schemas.xmlsoap.org/wsdl/soap/</value>
+  </record>
+  <Boolean name="HeadersInPipelineEnabled">false</Boolean>
+  <Boolean name="validateSOAPResponse">true</Boolean>
+  <Boolean name="validateSchemaUsingXerces">false</Boolean>
+  <Boolean name="enableCompatibility">false</Boolean>
+  <Boolean name="omitXSDAny">true</Boolean>
+  <array name="policyIds" type="value" depth="1">
+  </array>
+  <Boolean name="registerDoctypes">true</Boolean>
+  <Boolean name="allTypes">false</Boolean>
+  <Boolean name="generateXOPObjectForBase64Binary">false</Boolean>
+  <value name="originURI">https://www.dataaccess.com/webservicesserver/NumberConversion.wso?WSDL</value>
+  <value name="modifiable">false</value>
+  <value name="externalServiceName">{http://www.dataaccess.com/webservicesserver/}NumberConversion</value>
+  <array name="policyAttachmentList" type="record" depth="1">
+  </array>
+  <Boolean name="filterLoginCredentials">false</Boolean>
+</Values>
