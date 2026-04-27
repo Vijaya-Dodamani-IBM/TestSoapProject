@@ -24,7 +24,7 @@
   <value name="WSDLURL">http://pie-origin:5555/ws/project.testsoap.soap.connectors:TestNC?WSDL</value>
   <value name="definitionName">NumberConversion</value>
   <value name="version">V_12_1</value>
-  <value name="schemaDomain">21ad12477a6449ec932b93ebbad31efc</value>
+  <value name="schemaDomain">7023d8894d774aa69351608499c30185</value>
   <Boolean name="rawArray">true</Boolean>
   <array name="handlerList" type="record" depth="1">
   </array>
