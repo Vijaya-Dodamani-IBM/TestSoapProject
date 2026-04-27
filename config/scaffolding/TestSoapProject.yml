@@ -8,11 +8,11 @@ packages:
   gitUsername: Vijaya-Dodamani-IBM
   gitBranch: main
 services:
-- serviceName: project.testsoap.soap.connections:TestGitSoap
+- serviceName: project.testsoap.soap.connections:Test123Acc
   packages:
   - name: TestSoapProject
     version: "1.0"
-- serviceName: project.testsoap.soap.connectors.TestNC_.connectors:NumberConversionSoapType_NumberToDollars
+- serviceName: project.testsoap.soap.connectors.Test123_.connectors:NumberConversionSoapType_NumberToDollars
   packages:
   - name: TestSoapProject
     version: "1.0"
@@ -20,19 +20,19 @@ services:
   packages:
   - name: WmPublic
     version: 12.1.0.0.836
-- serviceName: project.testsoap.soap.connectors.TestNC_.connectors:NumberConversionSoapType_NumberToWords
+- serviceName: project.testsoap.soap.connectors.Test123_.connectors:NumberConversionSoapType_NumberToWords
   packages:
   - name: TestSoapProject
     version: "1.0"
-- serviceName: project.testsoap.soap.connectors.TestNC_.responseServices:NumberConversionSoapType_NumberToDollars_Response
+- serviceName: project.testsoap.soap.connectors.Test123_.responseServices:NumberConversionSoapType_NumberToDollars_Response
   packages:
   - name: TestSoapProject
     version: "1.0"
-- serviceName: project.testsoap.soap.connectors.TestNC_.responseServices:NumberConversionSoapType_NumberToWords_Response
+- serviceName: project.testsoap.soap.connectors.Test123_.responseServices:NumberConversionSoapType_NumberToWords_Response
   packages:
   - name: TestSoapProject
     version: "1.0"
-- serviceName: project.testsoap.soap.connectors.TestNC_.responseServices:genericFault_Response
+- serviceName: project.testsoap.soap.connectors.Test123_.responseServices:genericFault_Response
   packages:
   - name: TestSoapProject
     version: "1.0"
