@@ -9,7 +9,7 @@
     <value name="is_public">false</value>
     <value name="contentType">3</value>
     <value name="targetNamespace">http://www.dataaccess.com/webservicesserver/</value>
-    <value name="schemaDomain">4dff3e8e54f64607bdf8d09836b487ca</value>
+    <value name="schemaDomain">62fae7cd1f9248c98ae6cd4807959f91</value>
     <record name="attributes" javaclass="com.wm.util.Values">
       <list name="table">
       </list>
