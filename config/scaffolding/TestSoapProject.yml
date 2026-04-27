@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestSoapProject
+  gitServerName: git
+  gitUrl: https://github.com/Vijaya-Dodamani-IBM
+  gitUsername: Vijaya-Dodamani-IBM
+  gitBranch: main
